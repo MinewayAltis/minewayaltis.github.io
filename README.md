@@ -1,1 +1,0 @@
-# minewayaltis.github.io
