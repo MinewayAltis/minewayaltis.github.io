@@ -2,12 +2,13 @@
 
 $(document).ready(function() {
   var score = 0;
-   var timeLeft = 90;
+  var timeLeft = 90;
     
   $('.pokemon').removeClass('animation');
 
   $('.resetbutton').click(function() {
     score = 0;
+    timeLeft = 0;
     document.getElementById('points').innerHTML = score;
   });
   
